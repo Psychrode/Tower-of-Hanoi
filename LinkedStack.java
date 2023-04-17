@@ -3,7 +3,7 @@ import java.util.EmptyStackException;
 import stack.StackInterface;
 
 /**
- * LinkedStack to hold disks on poles
+ * LinkedStack data structure that will hold disk objects
  * 
  * @author Solaiman Ibrahimi
  * @version 03.21.2023
