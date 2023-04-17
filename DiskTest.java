@@ -1,8 +1,4 @@
 package towerofhanoi;
-// Virginia Tech Honor Code Pledge:
-// As a Hokie, I will conduct myself with honor and integrity at all times.
-// I will not lie, cheat, or steal, nor will I accept the actions of those who
-// do.
 // -- Solaiman Ibrahimi (kuplar)
 
 import student.TestCase;
@@ -19,7 +15,7 @@ public class DiskTest extends TestCase {
     private Disk small;
 
     /**
-     * setUp method to run before tests
+     * setUp method that runs once before each test method
      */
     public void setUp() {
         big = new Disk(6);
