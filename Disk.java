@@ -1,8 +1,4 @@
 package towerofhanoi;
-// Virginia Tech Honor Code Pledge:
-// As a Hokie, I will conduct myself with honor and integrity at all times.
-// I will not lie, cheat, or steal, nor will I accept the actions of those who
-// do.
 // -- Solaiman Ibrahimi (kuplar)
 
 import java.awt.Color;
@@ -10,7 +6,7 @@ import cs2.Shape;
 import student.TestableRandom;
 
 /**
- * Disk class that handles the disks that will be
+ * Disk class that transposes the disks to
  * moving along towers
  * 
  * @author Solaiman Ibrahimi
@@ -33,7 +29,7 @@ public class Disk extends Shape implements Comparable<Disk> {
 
 
     /**
-     * compareTo overridden method
+     * compareTo overridden method (compare disk objects)
      * 
      * @param o
      *            inserted disk
@@ -55,7 +51,7 @@ public class Disk extends Shape implements Comparable<Disk> {
 
 
     /**
-     * toString method for width display
+     * toString method for width display && testing
      * 
      * @return the string in proper format
      */
@@ -66,7 +62,7 @@ public class Disk extends Shape implements Comparable<Disk> {
 
 
     /**
-     * equals method to check if disks are equal
+     * equals method to check if disks are equal (width)
      * 
      * @param o
      *            inputted object for equivalence
