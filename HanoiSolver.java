@@ -1,14 +1,10 @@
 package towerofhanoi;
-// Virginia Tech Honor Code Pledge:
-// As a Hokie, I will conduct myself with honor and integrity at all times.
-// I will not lie, cheat, or steal, nor will I accept the actions of those who
-// do.
 // -- Solaiman Ibrahimi (kuplar)
 
 import java.util.Observable;
 
 /**
- * Class that holds solution algorithm
+ * Class that holds the recursive tree-like traversal algorithm
  * 
  * @author Solaiman Ibrahimi
  * @version 03.21.2023
@@ -107,11 +103,7 @@ public class HanoiSolver extends Observable {
      * @param endPole
      *            final pole we must move disks to
      */
-    private void solveTowers(
-        int currentDisks,
-        Tower startPole,
-        Tower tempPole,
-        Tower endPole) {
+    private void solveTowers(int currentDisks, Tower startPole, Tower tempPole, Tower endPole) {
         if (currentDisks == 1) {
             this.move(startPole, endPole);
         }
@@ -127,7 +119,7 @@ public class HanoiSolver extends Observable {
 
 
     /**
-     * method to call within puzzleWindow to solve
+     * method to call within frontend to solve
      * the configuration of disks when the solve button
      * has been clicked
      */
