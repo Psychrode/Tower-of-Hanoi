@@ -1,8 +1,4 @@
 package towerofhanoi;
-// Virginia Tech Honor Code Pledge:
-// As a Hokie, I will conduct myself with honor and integrity at all times.
-// I will not lie, cheat, or steal, nor will I accept the actions of those who
-// do.
 // -- Solaiman Ibrahimi (kuplar)
 
 /**
@@ -14,9 +10,10 @@ package towerofhanoi;
 public class ProjectRunner {
 
     /**
-     * main method
+     * main method to run application
      * 
      * @param args
+     *        used to check if custom input of disks inputted
      */
     @SuppressWarnings("unused")
     public static void main(String[] args) {
@@ -33,6 +30,6 @@ public class ProjectRunner {
      * constructor for class
      */
     public ProjectRunner() {
-        // empty
+        // empty - main only needed for now
     }
 }
